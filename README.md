@@ -10,9 +10,9 @@ instructions for MACOS
 
 run:  
 
-mkdir -p ~/.terraform.d/plugins
-curl -SL "https://github.com/IBM-Cloud/terraform-provider-ibm/releases/download/v1.20.0/$(uname | tr '[:upper:]' '[:lower:]')_amd64.zip" | \
-tar -xf - -C ~/.terraform.d/plugins
-chmod +x ~/.terraform.d/plugins/terraform-provider-ibm_*
+<br/>mkdir -p ~/.terraform.d/plugins
+<br/>curl -SL "https://github.com/IBM-Cloud/terraform-provider-ibm/releases/download/v1.20.0/$(uname | tr '[:upper:]' '[:lower:]')_amd64.zip" | \
+<br/>tar -xf - -C ~/.terraform.d/plugins
+<br/>chmod +x ~/.terraform.d/plugins/terraform-provider-ibm_*
 
 
